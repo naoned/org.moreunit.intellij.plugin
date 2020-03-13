@@ -14,9 +14,7 @@ Installation de l'environnement de développement
    1. Choisir d'importer un projet
    2. Sélectionner le dossier où le repository a été cloné
    3. Choisir **Import project from external model** => **Gradle**
-   4. Choisir **Use local gradle distribution**
-   5. Pour **Gradle home** saisir **/opt/gradle/gradle-4.9**
-   6. Pour **Gradle JVM** choisir **JDK 1.8**
+   4. L'IDE va indiquer que gradle n'est pas installé, installez la version qu'il vous propose
 6. Vérifier que tout est ok en sélectionnant **Gradle** dans le menu **view > Tool windows** puis en lancant la task **Tasks > intellij > runIde**. Une instance d'IntelliJ sera lancée avec le plugin activé.     
 
 Builder le plugin
