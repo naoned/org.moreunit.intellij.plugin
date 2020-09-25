@@ -12,6 +12,7 @@
     <ul>
       <li>src/* --> tests/*</li>
       <li>src/*1/src/*2 --> src/*1/tests/1-unit/*2</li>
+      <li>src/*1/tests/0-fixtures/src/*2 --> src/*1/tests/0-fixtures/src/*2</li>
     </ul>
     <br>
     <br>

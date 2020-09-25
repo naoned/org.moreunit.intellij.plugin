@@ -11,7 +11,7 @@ apply plugin: 'org.jetbrains.intellij'
 apply plugin: 'java'
 
 intellij {
-        version '2020.1'
+        version '2020.2'
         plugins 'coverage' //Bundled plugin dependencies
         pluginName 'NaoUnit'
 }
@@ -22,4 +22,4 @@ dependencies {
 
 
 group 'org.jetbrains'
-version '0.1.7' // Plugin version
+version '0.1.8' // Plugin version

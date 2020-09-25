@@ -13,11 +13,13 @@ public class Factory
 
         if(subject.isTestFile())
         {
+             patterns.add(DDDFixtureTestsPattern.create());
              patterns.add(DDDTestsPattern.create());
              patterns.add(SimpleTestsPattern.create());
         }
         else
         {
+            patterns.add(DDDFixtureSrcPattern.create());
             patterns.add(DDDSrcPattern.create());
             patterns.add(SimpleSrcPattern.create());
         }
