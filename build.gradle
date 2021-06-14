@@ -16,10 +16,15 @@ intellij {
         pluginName 'NaoUnit'
 }
 
+patchPluginXml {
+    sinceBuild '202.0'
+    untilBuild null
+}
+
 dependencies {
     compileOnly 'org.jetbrains:annotations:19.0.0'
 }
 
 
 group 'org.jetbrains'
-version '0.1.8' // Plugin version
+version '0.1.9' // Plugin version
